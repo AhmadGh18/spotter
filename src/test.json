@@ -1,0 +1,1253 @@
+{
+    "status": true,
+    "timestamp": 1738934845277,
+    "sessionId": "fe99397a-54be-4bef-9149-a077c609481c",
+    "data": {
+        "context": {
+            "status": "incomplete",
+            "totalResults": 10
+        },
+        "itineraries": [
+            {
+                "id": "12712-2502072320--32480-0-13554-2502081115",
+                "price": {
+                    "raw": 26476,
+                    "formatted": "$26,476",
+                    "pricingOptionId": "iHUJXTqc_P7_"
+                },
+                "legs": [
+                    {
+                        "id": "12712-2502072320--32480-0-13554-2502081115",
+                        "origin": {
+                            "id": "JFK",
+                            "entityId": "95565058",
+                            "name": "New York John F. Kennedy",
+                            "displayCode": "JFK",
+                            "city": "New York",
+                            "country": "United States",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LHR",
+                            "entityId": "95565050",
+                            "name": "London Heathrow",
+                            "displayCode": "LHR",
+                            "city": "London",
+                            "country": "United Kingdom",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 415,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-07T23:20:00",
+                        "arrival": "2025-02-08T11:15:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32480,
+                                    "alternateId": "BA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                    "name": "British Airways"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "12712-13554-2502072320-2502081115--32480",
+                                "origin": {
+                                    "flightPlaceId": "JFK",
+                                    "displayCode": "JFK",
+                                    "parent": {
+                                        "flightPlaceId": "NYCA",
+                                        "displayCode": "NYC",
+                                        "name": "New York",
+                                        "type": "City"
+                                    },
+                                    "name": "New York John F. Kennedy",
+                                    "type": "Airport",
+                                    "country": "United States"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LHR",
+                                    "displayCode": "LHR",
+                                    "parent": {
+                                        "flightPlaceId": "LOND",
+                                        "displayCode": "LON",
+                                        "name": "London",
+                                        "type": "City"
+                                    },
+                                    "name": "London Heathrow",
+                                    "type": "Airport",
+                                    "country": "United Kingdom"
+                                },
+                                "departure": "2025-02-07T23:20:00",
+                                "arrival": "2025-02-08T11:15:00",
+                                "durationInMinutes": 415,
+                                "flightNumber": "182",
+                                "marketingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "second_cheapest",
+                    "second_shortest"
+                ],
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.999
+            },
+            {
+                "id": "11442-2502072135--32480-0-13554-2502080925",
+                "price": {
+                    "raw": 26476,
+                    "formatted": "$26,476",
+                    "pricingOptionId": "PpsFE-UwlslM"
+                },
+                "legs": [
+                    {
+                        "id": "11442-2502072135--32480-0-13554-2502080925",
+                        "origin": {
+                            "id": "EWR",
+                            "entityId": "95565059",
+                            "name": "New York Newark",
+                            "displayCode": "EWR",
+                            "city": "New York",
+                            "country": "United States",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LHR",
+                            "entityId": "95565050",
+                            "name": "London Heathrow",
+                            "displayCode": "LHR",
+                            "city": "London",
+                            "country": "United Kingdom",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 410,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-07T21:35:00",
+                        "arrival": "2025-02-08T09:25:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32480,
+                                    "alternateId": "BA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                    "name": "British Airways"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "11442-13554-2502072135-2502080925--32480",
+                                "origin": {
+                                    "flightPlaceId": "EWR",
+                                    "displayCode": "EWR",
+                                    "parent": {
+                                        "flightPlaceId": "NYCA",
+                                        "displayCode": "NYC",
+                                        "name": "New York",
+                                        "type": "City"
+                                    },
+                                    "name": "New York Newark",
+                                    "type": "Airport",
+                                    "country": "United States"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LHR",
+                                    "displayCode": "LHR",
+                                    "parent": {
+                                        "flightPlaceId": "LOND",
+                                        "displayCode": "LON",
+                                        "name": "London",
+                                        "type": "City"
+                                    },
+                                    "name": "London Heathrow",
+                                    "type": "Airport",
+                                    "country": "United Kingdom"
+                                },
+                                "departure": "2025-02-07T21:35:00",
+                                "arrival": "2025-02-08T09:25:00",
+                                "durationInMinutes": 410,
+                                "flightNumber": "188",
+                                "marketingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "cheapest",
+                    "shortest"
+                ],
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.868302
+            },
+            {
+                "id": "12712-2502071915--32480-0-13554-2502080710",
+                "price": {
+                    "raw": 26476,
+                    "formatted": "$26,476",
+                    "pricingOptionId": "rS2ZWqu5mFdN"
+                },
+                "legs": [
+                    {
+                        "id": "12712-2502071915--32480-0-13554-2502080710",
+                        "origin": {
+                            "id": "JFK",
+                            "entityId": "95565058",
+                            "name": "New York John F. Kennedy",
+                            "displayCode": "JFK",
+                            "city": "New York",
+                            "country": "United States",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LHR",
+                            "entityId": "95565050",
+                            "name": "London Heathrow",
+                            "displayCode": "LHR",
+                            "city": "London",
+                            "country": "United Kingdom",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 415,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-07T19:15:00",
+                        "arrival": "2025-02-08T07:10:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32480,
+                                    "alternateId": "BA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                    "name": "British Airways"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "12712-13554-2502071915-2502080710--32480",
+                                "origin": {
+                                    "flightPlaceId": "JFK",
+                                    "displayCode": "JFK",
+                                    "parent": {
+                                        "flightPlaceId": "NYCA",
+                                        "displayCode": "NYC",
+                                        "name": "New York",
+                                        "type": "City"
+                                    },
+                                    "name": "New York John F. Kennedy",
+                                    "type": "Airport",
+                                    "country": "United States"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LHR",
+                                    "displayCode": "LHR",
+                                    "parent": {
+                                        "flightPlaceId": "LOND",
+                                        "displayCode": "LON",
+                                        "name": "London",
+                                        "type": "City"
+                                    },
+                                    "name": "London Heathrow",
+                                    "type": "Airport",
+                                    "country": "United Kingdom"
+                                },
+                                "departure": "2025-02-07T19:15:00",
+                                "arrival": "2025-02-08T07:10:00",
+                                "durationInMinutes": 415,
+                                "flightNumber": "176",
+                                "marketingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "second_cheapest",
+                    "second_shortest"
+                ],
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.742412
+            },
+            {
+                "id": "12712-2502071830--32480-0-13554-2502080630",
+                "price": {
+                    "raw": 26476,
+                    "formatted": "$26,476",
+                    "pricingOptionId": "7KfKcLT7gXHE"
+                },
+                "legs": [
+                    {
+                        "id": "12712-2502071830--32480-0-13554-2502080630",
+                        "origin": {
+                            "id": "JFK",
+                            "entityId": "95565058",
+                            "name": "New York John F. Kennedy",
+                            "displayCode": "JFK",
+                            "city": "New York",
+                            "country": "United States",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LHR",
+                            "entityId": "95565050",
+                            "name": "London Heathrow",
+                            "displayCode": "LHR",
+                            "city": "London",
+                            "country": "United Kingdom",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 420,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-07T18:30:00",
+                        "arrival": "2025-02-08T06:30:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32480,
+                                    "alternateId": "BA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                    "name": "British Airways"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "12712-13554-2502071830-2502080630--32480",
+                                "origin": {
+                                    "flightPlaceId": "JFK",
+                                    "displayCode": "JFK",
+                                    "parent": {
+                                        "flightPlaceId": "NYCA",
+                                        "displayCode": "NYC",
+                                        "name": "New York",
+                                        "type": "City"
+                                    },
+                                    "name": "New York John F. Kennedy",
+                                    "type": "Airport",
+                                    "country": "United States"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LHR",
+                                    "displayCode": "LHR",
+                                    "parent": {
+                                        "flightPlaceId": "LOND",
+                                        "displayCode": "LON",
+                                        "name": "London",
+                                        "type": "City"
+                                    },
+                                    "name": "London Heathrow",
+                                    "type": "Airport",
+                                    "country": "United Kingdom"
+                                },
+                                "departure": "2025-02-07T18:30:00",
+                                "arrival": "2025-02-08T06:30:00",
+                                "durationInMinutes": 420,
+                                "flightNumber": "112",
+                                "marketingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "third_cheapest",
+                    "third_shortest"
+                ],
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.597973
+            },
+            {
+                "id": "12712-2502071845--32480-0-13554-2502080645",
+                "price": {
+                    "raw": 26476,
+                    "formatted": "$26,476",
+                    "pricingOptionId": "C3AZ-bB6dNVr"
+                },
+                "legs": [
+                    {
+                        "id": "12712-2502071845--32480-0-13554-2502080645",
+                        "origin": {
+                            "id": "JFK",
+                            "entityId": "95565058",
+                            "name": "New York John F. Kennedy",
+                            "displayCode": "JFK",
+                            "city": "New York",
+                            "country": "United States",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LHR",
+                            "entityId": "95565050",
+                            "name": "London Heathrow",
+                            "displayCode": "LHR",
+                            "city": "London",
+                            "country": "United Kingdom",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 420,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-07T18:45:00",
+                        "arrival": "2025-02-08T06:45:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32480,
+                                    "alternateId": "BA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                    "name": "British Airways"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "12712-13554-2502071845-2502080645--32480",
+                                "origin": {
+                                    "flightPlaceId": "JFK",
+                                    "displayCode": "JFK",
+                                    "parent": {
+                                        "flightPlaceId": "NYCA",
+                                        "displayCode": "NYC",
+                                        "name": "New York",
+                                        "type": "City"
+                                    },
+                                    "name": "New York John F. Kennedy",
+                                    "type": "Airport",
+                                    "country": "United States"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LHR",
+                                    "displayCode": "LHR",
+                                    "parent": {
+                                        "flightPlaceId": "LOND",
+                                        "displayCode": "LON",
+                                        "name": "London",
+                                        "type": "City"
+                                    },
+                                    "name": "London Heathrow",
+                                    "type": "Airport",
+                                    "country": "United Kingdom"
+                                },
+                                "departure": "2025-02-07T18:45:00",
+                                "arrival": "2025-02-08T06:45:00",
+                                "durationInMinutes": 420,
+                                "flightNumber": "174",
+                                "marketingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "third_cheapest",
+                    "third_shortest"
+                ],
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.597973
+            },
+            {
+                "id": "12712-2502071915--32573-0-13554-2502080710",
+                "price": {
+                    "raw": 26476,
+                    "formatted": "$26,476",
+                    "pricingOptionId": "issrJjCWpJmb"
+                },
+                "legs": [
+                    {
+                        "id": "12712-2502071915--32573-0-13554-2502080710",
+                        "origin": {
+                            "id": "JFK",
+                            "entityId": "95565058",
+                            "name": "New York John F. Kennedy",
+                            "displayCode": "JFK",
+                            "city": "New York",
+                            "country": "United States",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LHR",
+                            "entityId": "95565050",
+                            "name": "London Heathrow",
+                            "displayCode": "LHR",
+                            "city": "London",
+                            "country": "United Kingdom",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 415,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-07T19:15:00",
+                        "arrival": "2025-02-08T07:10:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32573,
+                                    "alternateId": "AA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AA.png",
+                                    "name": "American Airlines"
+                                }
+                            ],
+                            "operating": [
+                                {
+                                    "id": -32480,
+                                    "alternateId": "BA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                    "name": "British Airways"
+                                }
+                            ],
+                            "operationType": "not_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "12712-13554-2502071915-2502080710--32573",
+                                "origin": {
+                                    "flightPlaceId": "JFK",
+                                    "displayCode": "JFK",
+                                    "parent": {
+                                        "flightPlaceId": "NYCA",
+                                        "displayCode": "NYC",
+                                        "name": "New York",
+                                        "type": "City"
+                                    },
+                                    "name": "New York John F. Kennedy",
+                                    "type": "Airport",
+                                    "country": "United States"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LHR",
+                                    "displayCode": "LHR",
+                                    "parent": {
+                                        "flightPlaceId": "LOND",
+                                        "displayCode": "LON",
+                                        "name": "London",
+                                        "type": "City"
+                                    },
+                                    "name": "London Heathrow",
+                                    "type": "Airport",
+                                    "country": "United Kingdom"
+                                },
+                                "departure": "2025-02-07T19:15:00",
+                                "arrival": "2025-02-08T07:10:00",
+                                "durationInMinutes": 415,
+                                "flightNumber": "6937",
+                                "marketingCarrier": {
+                                    "id": -32573,
+                                    "name": "American Airlines",
+                                    "alternateId": "AA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "second_cheapest",
+                    "second_shortest"
+                ],
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.596561
+            },
+            {
+                "id": "11442-2502072135--32573-0-13554-2502080925",
+                "price": {
+                    "raw": 26476,
+                    "formatted": "$26,476",
+                    "pricingOptionId": "hpwL7ns6W-y8"
+                },
+                "legs": [
+                    {
+                        "id": "11442-2502072135--32573-0-13554-2502080925",
+                        "origin": {
+                            "id": "EWR",
+                            "entityId": "95565059",
+                            "name": "New York Newark",
+                            "displayCode": "EWR",
+                            "city": "New York",
+                            "country": "United States",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LHR",
+                            "entityId": "95565050",
+                            "name": "London Heathrow",
+                            "displayCode": "LHR",
+                            "city": "London",
+                            "country": "United Kingdom",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 410,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-07T21:35:00",
+                        "arrival": "2025-02-08T09:25:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32573,
+                                    "alternateId": "AA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AA.png",
+                                    "name": "American Airlines"
+                                }
+                            ],
+                            "operating": [
+                                {
+                                    "id": -32480,
+                                    "alternateId": "BA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                    "name": "British Airways"
+                                }
+                            ],
+                            "operationType": "not_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "11442-13554-2502072135-2502080925--32573",
+                                "origin": {
+                                    "flightPlaceId": "EWR",
+                                    "displayCode": "EWR",
+                                    "parent": {
+                                        "flightPlaceId": "NYCA",
+                                        "displayCode": "NYC",
+                                        "name": "New York",
+                                        "type": "City"
+                                    },
+                                    "name": "New York Newark",
+                                    "type": "Airport",
+                                    "country": "United States"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LHR",
+                                    "displayCode": "LHR",
+                                    "parent": {
+                                        "flightPlaceId": "LOND",
+                                        "displayCode": "LON",
+                                        "name": "London",
+                                        "type": "City"
+                                    },
+                                    "name": "London Heathrow",
+                                    "type": "Airport",
+                                    "country": "United Kingdom"
+                                },
+                                "departure": "2025-02-07T21:35:00",
+                                "arrival": "2025-02-08T09:25:00",
+                                "durationInMinutes": 410,
+                                "flightNumber": "6945",
+                                "marketingCarrier": {
+                                    "id": -32573,
+                                    "name": "American Airlines",
+                                    "alternateId": "AA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "cheapest",
+                    "shortest"
+                ],
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.595226
+            },
+            {
+                "id": "12712-2502072320--32317-0-13554-2502081115",
+                "price": {
+                    "raw": 26476,
+                    "formatted": "$26,476",
+                    "pricingOptionId": "E65_up_io5Sz"
+                },
+                "legs": [
+                    {
+                        "id": "12712-2502072320--32317-0-13554-2502081115",
+                        "origin": {
+                            "id": "JFK",
+                            "entityId": "95565058",
+                            "name": "New York John F. Kennedy",
+                            "displayCode": "JFK",
+                            "city": "New York",
+                            "country": "United States",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LHR",
+                            "entityId": "95565050",
+                            "name": "London Heathrow",
+                            "displayCode": "LHR",
+                            "city": "London",
+                            "country": "United Kingdom",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 415,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-07T23:20:00",
+                        "arrival": "2025-02-08T11:15:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32317,
+                                    "alternateId": "AY",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AY.png",
+                                    "name": "Finnair"
+                                }
+                            ],
+                            "operating": [
+                                {
+                                    "id": -32480,
+                                    "alternateId": "BA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                    "name": "British Airways"
+                                }
+                            ],
+                            "operationType": "not_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "12712-13554-2502072320-2502081115--32317",
+                                "origin": {
+                                    "flightPlaceId": "JFK",
+                                    "displayCode": "JFK",
+                                    "parent": {
+                                        "flightPlaceId": "NYCA",
+                                        "displayCode": "NYC",
+                                        "name": "New York",
+                                        "type": "City"
+                                    },
+                                    "name": "New York John F. Kennedy",
+                                    "type": "Airport",
+                                    "country": "United States"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LHR",
+                                    "displayCode": "LHR",
+                                    "parent": {
+                                        "flightPlaceId": "LOND",
+                                        "displayCode": "LON",
+                                        "name": "London",
+                                        "type": "City"
+                                    },
+                                    "name": "London Heathrow",
+                                    "type": "Airport",
+                                    "country": "United Kingdom"
+                                },
+                                "departure": "2025-02-07T23:20:00",
+                                "arrival": "2025-02-08T11:15:00",
+                                "durationInMinutes": 415,
+                                "flightNumber": "5482",
+                                "marketingCarrier": {
+                                    "id": -32317,
+                                    "name": "Finnair",
+                                    "alternateId": "AY",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "second_cheapest",
+                    "second_shortest"
+                ],
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.587854
+            },
+            {
+                "id": "12712-2502071845--32573-0-13554-2502080645",
+                "price": {
+                    "raw": 26476,
+                    "formatted": "$26,476",
+                    "pricingOptionId": "-kYw2UgO8mEW"
+                },
+                "legs": [
+                    {
+                        "id": "12712-2502071845--32573-0-13554-2502080645",
+                        "origin": {
+                            "id": "JFK",
+                            "entityId": "95565058",
+                            "name": "New York John F. Kennedy",
+                            "displayCode": "JFK",
+                            "city": "New York",
+                            "country": "United States",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LHR",
+                            "entityId": "95565050",
+                            "name": "London Heathrow",
+                            "displayCode": "LHR",
+                            "city": "London",
+                            "country": "United Kingdom",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 420,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-07T18:45:00",
+                        "arrival": "2025-02-08T06:45:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32573,
+                                    "alternateId": "AA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AA.png",
+                                    "name": "American Airlines"
+                                }
+                            ],
+                            "operating": [
+                                {
+                                    "id": -32480,
+                                    "alternateId": "BA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                    "name": "British Airways"
+                                }
+                            ],
+                            "operationType": "not_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "12712-13554-2502071845-2502080645--32573",
+                                "origin": {
+                                    "flightPlaceId": "JFK",
+                                    "displayCode": "JFK",
+                                    "parent": {
+                                        "flightPlaceId": "NYCA",
+                                        "displayCode": "NYC",
+                                        "name": "New York",
+                                        "type": "City"
+                                    },
+                                    "name": "New York John F. Kennedy",
+                                    "type": "Airport",
+                                    "country": "United States"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LHR",
+                                    "displayCode": "LHR",
+                                    "parent": {
+                                        "flightPlaceId": "LOND",
+                                        "displayCode": "LON",
+                                        "name": "London",
+                                        "type": "City"
+                                    },
+                                    "name": "London Heathrow",
+                                    "type": "Airport",
+                                    "country": "United Kingdom"
+                                },
+                                "departure": "2025-02-07T18:45:00",
+                                "arrival": "2025-02-08T06:45:00",
+                                "durationInMinutes": 420,
+                                "flightNumber": "6923",
+                                "marketingCarrier": {
+                                    "id": -32573,
+                                    "name": "American Airlines",
+                                    "alternateId": "AA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "third_cheapest",
+                    "third_shortest"
+                ],
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.584851
+            },
+            {
+                "id": "12712-2502071830--32573-0-13554-2502080630",
+                "price": {
+                    "raw": 26476,
+                    "formatted": "$26,476",
+                    "pricingOptionId": "Z7BbZ4cuTfG_"
+                },
+                "legs": [
+                    {
+                        "id": "12712-2502071830--32573-0-13554-2502080630",
+                        "origin": {
+                            "id": "JFK",
+                            "entityId": "95565058",
+                            "name": "New York John F. Kennedy",
+                            "displayCode": "JFK",
+                            "city": "New York",
+                            "country": "United States",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "LHR",
+                            "entityId": "95565050",
+                            "name": "London Heathrow",
+                            "displayCode": "LHR",
+                            "city": "London",
+                            "country": "United Kingdom",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 420,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-07T18:30:00",
+                        "arrival": "2025-02-08T06:30:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32573,
+                                    "alternateId": "AA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AA.png",
+                                    "name": "American Airlines"
+                                }
+                            ],
+                            "operating": [
+                                {
+                                    "id": -32480,
+                                    "alternateId": "BA",
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                                    "name": "British Airways"
+                                }
+                            ],
+                            "operationType": "not_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "12712-13554-2502071830-2502080630--32573",
+                                "origin": {
+                                    "flightPlaceId": "JFK",
+                                    "displayCode": "JFK",
+                                    "parent": {
+                                        "flightPlaceId": "NYCA",
+                                        "displayCode": "NYC",
+                                        "name": "New York",
+                                        "type": "City"
+                                    },
+                                    "name": "New York John F. Kennedy",
+                                    "type": "Airport",
+                                    "country": "United States"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LHR",
+                                    "displayCode": "LHR",
+                                    "parent": {
+                                        "flightPlaceId": "LOND",
+                                        "displayCode": "LON",
+                                        "name": "London",
+                                        "type": "City"
+                                    },
+                                    "name": "London Heathrow",
+                                    "type": "Airport",
+                                    "country": "United Kingdom"
+                                },
+                                "departure": "2025-02-07T18:30:00",
+                                "arrival": "2025-02-08T06:30:00",
+                                "durationInMinutes": 420,
+                                "flightNumber": "6925",
+                                "marketingCarrier": {
+                                    "id": -32573,
+                                    "name": "American Airlines",
+                                    "alternateId": "AA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32480,
+                                    "name": "British Airways",
+                                    "alternateId": "BA",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": false,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "third_cheapest",
+                    "third_shortest"
+                ],
+                "isMashUp": false,
+                "hasFlexibleOptions": false,
+                "score": 0.584851
+            }
+        ],
+        "messages": [],
+        "filterStats": {
+            "duration": {
+                "min": 410,
+                "max": 420,
+                "multiCityMin": 410,
+                "multiCityMax": 420
+            },
+            "airports": [
+                {
+                    "city": "London",
+                    "airports": [
+                        {
+                            "id": "LHR",
+                            "entityId": "95565050",
+                            "name": "London Heathrow"
+                        }
+                    ]
+                },
+                {
+                    "city": "New York",
+                    "airports": [
+                        {
+                            "id": "JFK",
+                            "entityId": "95565058",
+                            "name": "New York John F. Kennedy"
+                        },
+                        {
+                            "id": "EWR",
+                            "entityId": "95565059",
+                            "name": "New York Newark"
+                        }
+                    ]
+                }
+            ],
+            "carriers": [
+                {
+                    "id": -32573,
+                    "alternateId": "AA",
+                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AA.png",
+                    "name": "American Airlines"
+                },
+                {
+                    "id": -32480,
+                    "alternateId": "BA",
+                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                    "name": "British Airways"
+                },
+                {
+                    "id": -32317,
+                    "alternateId": "AY",
+                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AY.png",
+                    "name": "Finnair"
+                }
+            ],
+            "stopPrices": {
+                "direct": {
+                    "isPresent": true,
+                    "formattedPrice": "$26,476"
+                },
+                "one": {
+                    "isPresent": false
+                },
+                "twoOrMore": {
+                    "isPresent": false
+                }
+            }
+        },
+        "flightsSessionId": "fe99397a-54be-4bef-9149-a077c609481c",
+        "destinationImageUrl": "https://content.skyscnr.com/m/3719e8f4a5daf43d/original/Flights-Placeholder.jpg"
+    }
+}
